@@ -1,0 +1,113 @@
+body{
+     background-color: black;
+}
+.searchbar i{
+     color: black;
+}
+.upper{
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+}
+.upper i{
+     color: white;
+     margin-right: 1rem;
+     font-size: 1.5rem;
+}
+.searchbar {
+     background-color: white;
+    
+     padding: 0.5rem 2rem;
+     border-radius: 20px;
+     margin-right: 0.5rem;
+     margin-left: 0.5rem;
+     display: flex;
+    flex: 1;
+}
+
+input{
+     background-color: white;
+     width: 90%;
+     color: black;
+     border: none;
+     font-size: medium;
+     padding-left: 0.5rem;
+}
+input:focus{
+     outline: none;
+}
+input::placeholder{
+     color: black;
+}
+.container img{
+     height: 4rem;
+     transform:rotate(23deg);
+     aspect-ratio: 1/1;
+     object-fit: cover;
+     display: flex;
+     margin-top: 1.7rem;
+     box-shadow: 0 0 8px black;
+    
+}
+.box{
+     width: 50%;
+     height:  95px;
+     background-color:fuchsia;
+     display: flex;
+     
+     justify-content: space-between;
+     overflow: hidden;
+     margin-top: 1rem;
+     margin-right: 1rem;
+     padding-left:1rem ;
+     color: white;
+     border-radius: 12px;
+     flex: 1;
+}
+@media(max-width:500px){
+     .box{
+          font-size: 10px;
+          height: 4rem;
+     }
+     .container img{
+          height:3rem;
+          margin-top: 1rem;
+     }
+}
+
+.container{
+     width: 100%;
+     display: flex;
+   
+}
+
+.b1{
+     background-color: rgb(220, 20, 140);
+}
+.b2{
+     background-color: rgb(0, 100, 80);
+}
+.b3{
+     background-color: rgb(132, 0, 231);
+}
+.b4{
+     background-color: rgb(30, 50, 100);
+}
+.b5{
+     background-color: rgb(96, 129, 8);
+}
+.b6{
+     background-color: rgb(0, 100, 80);
+}
+.b7{
+     background-color: rgb(220, 20, 140);
+}
+.b8{
+     background-color: rgb(186, 93, 7) ;
+}
+.b9{
+     background-color:rgb(176, 40, 151) ;
+}
+.b10{
+     background-color: rgb(13, 115, 236);
+}
